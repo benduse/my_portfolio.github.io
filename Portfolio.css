@@ -1,16 +1,17 @@
 body{
     /* sets the background color for the whole document */
     background-color:#4b7292;
-   l/*Leaves a little bit of space 15 10 10 15 top right bottom left
-   respectively to avoid the overflow of sentences */
-    padding: 15px 10px 10px 15px;
     /* Puts the content in the center of the webpage */
     align-content: center;
     /* Sets the font for all the content */
     font-family:Verdana, Arial,Helvetica,sans-serif;
 }
 
-body h1{
+body h2{
     /* puts the title in the center */
     text-align: center;
+}
+footer{
+    text-align: center;
+    align-self: flex-end;
 }
