@@ -1,17 +1,16 @@
 form{
     background:#898996;
+    /* the code changes the flexbility of the form. brings it to the center */
     display:flex;
+    /* puts the form elements in column */
     flex-direction: column;
-    background-size: cover;
 }
 
 form div{
 align-self: center;
-padding-right: 0;
 }
-
+/* codes for the submit button */
 button{
-    display:static;
-    color:rgb(161, 97, 97);
+    color:#dbabf;
     background: #256c41;
 }
