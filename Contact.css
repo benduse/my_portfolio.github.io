@@ -1,0 +1,17 @@
+form{
+    background:#898996;
+    display:flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+form div{
+align-self: center;
+padding-right: 0;
+}
+
+button{
+    display:static;
+    color:rgb(161, 97, 97);
+    background: #256c41;
+}
