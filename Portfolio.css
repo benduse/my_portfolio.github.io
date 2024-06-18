@@ -2,16 +2,32 @@ body{
     /* sets the background color for the whole document */
     background-color:#4b7292;
     /* Puts the content in the center of the webpage */
-    align-content: center;
+    /* align-content: center; */
     /* Sets the font for all the content */
     font-family:Verdana, Arial,Helvetica,sans-serif;
 }
 
-body h2{
+body {
     /* puts the title in the center */
     text-align: center;
 }
 footer{
     text-align: center;
     align-self: flex-end;
+}
+#main{
+    /* display:flex;
+    flex-direction: column; */
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    padding: 0px 16px; 
+    box-sizing:content-box;
+    background:#a59daf;
+    border-style:ridge;
+    max-width: 800px;
+}
+
+#education, #skills, #experience, #conference, #others{
+text-align:left;
 }

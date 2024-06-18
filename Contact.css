@@ -1,16 +1,26 @@
-form{
-    background:#898996;
-    /* the code changes the flexbility of the form. brings it to the center */
-    display:flex;
-    /* puts the form elements in column */
-    flex-direction: column;
-}
+form {
+    width: 740px;
+    height: 498px;
+    margin: 0 auto;
+    padding: 16px; 
+    box-sizing:border-box;
+    border-radius: 12; 
+  }
 
-form div{
-align-self: center;
-}
 /* codes for the submit button */
 button{
-    color:#dbabf;
-    background: #256c41;
+        padding: 5px;
+        font-weight: bold;
+        border-radius:5px;
+        background:rgb(25, 173, 94);
+        cursor:pointer;
+}
+
+input,
+textarea {
+  border-radius: 12px;
+  padding:15px;
+  margin: 10;
+  width: 100%;
+  background:#ffff;
 }
